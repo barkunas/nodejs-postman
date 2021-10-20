@@ -109,6 +109,7 @@ export default class Form extends Component {
         //const ResultsBlock = this.state.results && <Results {...resultsObj} />;
         return (
             <Box sx={{ fontFamily: 'default' }}>
+                {(this.state.waitResponse)&&(<div className="Shadow"><div>Loading...</div></div>)}
                 {(this.state.results.messages) && (<div className="QueryClass" style={{ color: 'red' }}>
                     <div>Server message:</div>
                     <div>{this.state.results.messages[0]}</div>
