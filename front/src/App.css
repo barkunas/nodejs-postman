@@ -1,6 +1,10 @@
 .App {
   text-align: center;
 }
+
+.CenterBlock{
+ text-align: -webkit-center
+}
 .InputBlock{
   display: inline-flex;
   align-items: center;
