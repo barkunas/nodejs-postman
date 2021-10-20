@@ -166,7 +166,7 @@ export default class Form extends Component {
                     <div className="CenterBlock">
                         <TextField
                             id="outlined-multiline-flexible"
-                            label="Multiline"
+                            label="Body"
                             sx={{ width: 300 }}
                             multiline
                             maxRows={4}
